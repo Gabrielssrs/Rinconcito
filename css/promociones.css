@@ -1,0 +1,134 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+}
+header {
+    background-color: #223B5C;
+    color: white;
+}
+.nav-link {
+    color: white;
+    font-size: 12px;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    text-transform: uppercase;
+    margin-right: 17px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    font-weight: bold;
+}
+
+.menu a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 5px;
+    background: white;
+    transition: width 0s;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+.phone {
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.phone i {
+    font-size: 1.2rem;
+}
+.btn-red {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+.btn-red:hover {
+    background-color: #b30000;
+}
+.location {
+    font-size: 0.8rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.location i {
+    margin-left: 5px;
+}
+.hero {
+   
+   /*  background-size: cover; */
+    width: 90%;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.logo{
+    width: 110px;
+    margin-right: 60px;
+}
+
+.bi{
+    font-size: 20px;
+}
+.cta-btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.promo-card {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.promo-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2a2a2a;
+}
+.btn-order {
+    background-color: #dc3545;
+    color: white;
+}
+.btn-terms {
+    border: 1px solid #2a2a2a;
+    color: #2a2a2a;
+}
+
+footer {
+    background-color: #223B5C;
+    color: #ddd;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.foo{
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 30px;
+}
