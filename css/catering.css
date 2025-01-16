@@ -5,6 +5,7 @@ body {
 header {
     background-color: #223B5C;
     color: white;
+    width: 100%;
 }
 .nav-link {
     color: white;
@@ -81,7 +82,8 @@ header {
 }
 
 .hero-section img {
-    width: 1100px;
+    max-width: 1024px;
+    width: 100%;
     height: auto;
     border-radius: 5%;
     object-fit: cover;
